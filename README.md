@@ -12,12 +12,6 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
-
-**Theory**
-
-**Logic Diagram**
-
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -34,17 +28,27 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
-
-
+```
+Developed by:Harieenesh
+RegisterNumber:24002342
+module u(f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor,a,b);
+input a,b;
+output f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor;
+and(f_and,a,b);
+or(f_or,a,b);
+not(f_not,a);
+nor(f_nor,a,b);
+nand(f_nand,a,b);
+xor(f_xor,a,b);
+xnor(f_xnor,a,b);
+endmodule
+```
 **RTL realization**
-
-**Output:**
-
-**RTL**
+![Screenshot 2024-11-11 135413](https://github.com/user-attachments/assets/053e8522-41bb-4617-aafe-73cc5a5eb6e1)
 
 **Timing Diagram**
+![Screenshot 2024-11-11 140118](https://github.com/user-attachments/assets/30a94fe0-e1c2-4333-8f4b-e3f9aaa00755)
+
 
 **Result:**
 
